@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../external-integration/">
+        <link rel="prev" href="../transactional/">
       
       
-        <link rel="next" href="../sdks/">
+        <link rel="next" href="../../maintenance/performance/">
       
       
       <link rel="icon" href="../../images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Introduction - listmonk / Documentation</title>
+        <title>Bounces - listmonk / Documentation</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#apis" class="md-skip">
+        <a href="#api-bounces" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Bounces
             
           </span>
         </div>
@@ -631,30 +631,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Introduction
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../apis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -663,86 +643,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#openapi-swagger-spec" class="md-nav__link">
-    <span class="md-ellipsis">
-      OpenAPI (Swagger) spec
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#response-structure" class="md-nav__link">
-    <span class="md-ellipsis">
-      Response structure
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Response structure">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#successful-request" class="md-nav__link">
-    <span class="md-ellipsis">
-      Successful request
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#failed-request" class="md-nav__link">
-    <span class="md-ellipsis">
-      Failed request
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#timestamps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Timestamps
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#common-http-error-codes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Common HTTP error codes
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -920,10 +820,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../bounces/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Bounces
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -932,6 +852,185 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get-apibounces" class="md-nav__link">
+    <span class="md-ellipsis">
+      GET /api/bounces
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GET /api/bounces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-apibounces" class="md-nav__link">
+    <span class="md-ellipsis">
+      DELETE /api/bounces
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DELETE /api/bounces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameters_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-request_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-apibounces_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      DELETE /api/bounces
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DELETE /api/bounces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameters_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-request_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-apibouncesbounce_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      DELETE /api/bounces/{bounce_id}
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DELETE /api/bounces/{bounce_id}">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-request_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1115,55 +1214,154 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#openapi-swagger-spec" class="md-nav__link">
+  <a href="#get-apibounces" class="md-nav__link">
     <span class="md-ellipsis">
-      OpenAPI (Swagger) spec
+      GET /api/bounces
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="GET /api/bounces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#response-structure" class="md-nav__link">
+  <a href="#delete-apibounces" class="md-nav__link">
     <span class="md-ellipsis">
-      Response structure
+      DELETE /api/bounces
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Response structure">
+    <nav class="md-nav" aria-label="DELETE /api/bounces">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#successful-request" class="md-nav__link">
+  <a href="#parameters_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Successful request
+      Parameters
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#failed-request" class="md-nav__link">
+  <a href="#example-request_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Failed request
+      Example Request
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#timestamps" class="md-nav__link">
+  <a href="#example-response_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Timestamps
+      Example Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-apibounces_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      DELETE /api/bounces
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DELETE /api/bounces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parameters_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#common-http-error-codes" class="md-nav__link">
+  <a href="#example-request_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Common HTTP error codes
+      Example Request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Response
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-apibouncesbounce_id" class="md-nav__link">
+    <span class="md-ellipsis">
+      DELETE /api/bounces/{bounce_id}
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DELETE /api/bounces/{bounce_id}">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-request_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Request
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-response_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Response
     </span>
   </a>
   
@@ -1189,90 +1387,205 @@
                   
 
 
-<h1 id="apis">APIs<a class="headerlink" href="#apis" title="Permanent link">&para;</a></h1>
-<p>All features that are available on the listmonk dashboard are also available as REST-like HTTP APIs that can be interacted with directly. Request and response bodies are JSON. This allows easy scripting of listmonk and integration with other systems, for instance, synchronisation with external subscriber databases.</p>
-<p>API requests require BasicAuth authentication with the admin credentials.</p>
-<blockquote>
-<p>The API section is a work in progress. There may be API calls that are yet to be documented. Please consider contributing to docs.</p>
-</blockquote>
-<h2 id="openapi-swagger-spec">OpenAPI (Swagger) spec<a class="headerlink" href="#openapi-swagger-spec" title="Permanent link">&para;</a></h2>
-<p>The auto-generated OpenAPI (Swagger) specification site for the APIs are available at <a href="https://listmonk.app/docs/swagger/"><strong>listmonk.app/docs/swagger</strong></a></p>
-<h2 id="response-structure">Response structure<a class="headerlink" href="#response-structure" title="Permanent link">&para;</a></h2>
-<h3 id="successful-request">Successful request<a class="headerlink" href="#successful-request" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">OK</span>
-<span class="na">Content-Type</span><span class="o">:</span> <span class="l">application/json</span>
-
-<span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span>
-<span class="p">}</span>
-</code></pre></div>
-<p>All responses from the API server are JSON with the content-type application/json unless explicitly stated otherwise. A successful 200 OK response always has a JSON response body with a status key with the value success. The data key contains the full response payload.</p>
-<h3 id="failed-request">Failed request<a class="headerlink" href="#failed-request" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">500</span> <span class="ne">Server error</span>
-<span class="na">Content-Type</span><span class="o">:</span> <span class="l">application/json</span>
-
-<span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Error message&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
-<p>A failure response is preceded by the corresponding 40x or 50x HTTP header. There may be an optional <code>data</code> key with additional payload.</p>
-<h3 id="timestamps">Timestamps<a class="headerlink" href="#timestamps" title="Permanent link">&para;</a></h3>
-<p>All timestamp fields are in the format <code>2019-01-01T09:00:00.000000+05:30</code>. The seconds component is suffixed by the milliseconds, followed by the <code>+</code> and the timezone offset.</p>
-<h3 id="common-http-error-codes">Common HTTP error codes<a class="headerlink" href="#common-http-error-codes" title="Permanent link">&para;</a></h3>
+<h1 id="api-bounces">API / Bounces<a class="headerlink" href="#api-bounces" title="Permanent link">&para;</a></h1>
 <table>
 <thead>
 <tr>
-<th>Code</th>
-<th></th>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>400</td>
-<td>Missing or bad request parameters or values</td>
+<td>GET</td>
+<td><a href="#get-apibounces">/api/bounces</a></td>
+<td>Retrieve bounce records.</td>
 </tr>
 <tr>
-<td>403</td>
-<td>Session expired or invalidate. Must relogin</td>
+<td>DELETE</td>
+<td><a href="#delete-apibounces">/api/bounces</a></td>
+<td>Delete all/multiple bounce records.</td>
 </tr>
 <tr>
-<td>404</td>
-<td>Request resource was not found</td>
-</tr>
-<tr>
-<td>405</td>
-<td>Request method (GET, POST etc.) is not allowed on the requested endpoint</td>
-</tr>
-<tr>
-<td>410</td>
-<td>The requested resource is gone permanently</td>
-</tr>
-<tr>
-<td>422</td>
-<td>Unprocessable entity. Unable to process request as it contains invalid data</td>
-</tr>
-<tr>
-<td>429</td>
-<td>Too many requests to the API (rate limiting)</td>
-</tr>
-<tr>
-<td>500</td>
-<td>Something unexpected went wrong</td>
-</tr>
-<tr>
-<td>502</td>
-<td>The backend OMS is down and the API is unable to communicate with it</td>
-</tr>
-<tr>
-<td>503</td>
-<td>Service unavailable; the API is down</td>
-</tr>
-<tr>
-<td>504</td>
-<td>Gateway timeout; the API is unreachable</td>
+<td>DELETE</td>
+<td><a href="#delete-apibouncesbounce_id">/api/bounces/{bounce_id}</a></td>
+<td>Delete specific bounce record.</td>
 </tr>
 </tbody>
 </table>
+<hr />
+<h4 id="get-apibounces">GET /api/bounces<a class="headerlink" href="#get-apibounces" title="Permanent link">&para;</a></h4>
+<p>Retrieve the bounce records.</p>
+<h5 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Required</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">campaign_id</td>
+<td style="text-align: left;">number</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Bounce record retrieval for particular campaign id</td>
+</tr>
+<tr>
+<td style="text-align: left;">page</td>
+<td style="text-align: left;">number</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Page number for pagination.</td>
+</tr>
+<tr>
+<td style="text-align: left;">per_page</td>
+<td style="text-align: left;">number</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Results per page. Set to 'all' to return all results.</td>
+</tr>
+<tr>
+<td style="text-align: left;">source</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">order_by</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Fields by which bounce records are ordered. Options:"email", "campaign_name", "source", "created_at".</td>
+</tr>
+<tr>
+<td style="text-align: left;">order</td>
+<td style="text-align: left;">number</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Sorts the result. Allowed values: 'asc','desc'</td>
+</tr>
+</tbody>
+</table>
+<h5 id="example-request">Example Request<a class="headerlink" href="#example-request" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-u<span class="w"> </span><span class="s2">&quot;username:password&quot;</span><span class="w"> </span>-X<span class="w"> </span>GET<span class="w"> </span><span class="s1">&#39;http://localhost:9000/api/bounces?campaign_id=1&amp;page=1&amp;per_page=2&#39;</span><span class="w"> </span><span class="se">\ </span>
+<span class="w">    </span>-H<span class="w"> </span><span class="s1">&#39;accept: application/json&#39;</span><span class="w"> </span>-H<span class="w"> </span><span class="s1">&#39;Content-Type: application/x-www-form-urlencoded&#39;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--data<span class="w"> </span><span class="s1">&#39;{&quot;source&quot;:&quot;demo&quot;,&quot;order_by&quot;:&quot;created_at&quot;,&quot;order&quot;:&quot;asc&quot;}&#39;</span>
+</code></pre></div>
+<h5 id="example-response">Example Response<a class="headerlink" href="#example-response" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;results&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">839971</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hard&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;demo&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;meta&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;some&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;parameter&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-08-20T23:54:22.851858Z&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gilles.deleuze@example.app&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;subscriber_uuid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;32ca1f3e-1a1d-42e1-af04-df0757f420f3&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;subscriber_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">60</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;campaign&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Test campaign&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">839725</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;hard&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;demo&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;meta&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;some&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;parameter&quot;</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-08-20T22:46:36.393547Z&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;gottfried.leibniz@example.app&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;subscriber_uuid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;5911d3f4-2346-4bfc-aad2-eb319ab0e879&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;subscriber_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">13</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;campaign&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Test campaign&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;query&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;total&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">528</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;per_page&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;page&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<hr />
+<h4 id="delete-apibounces">DELETE /api/bounces<a class="headerlink" href="#delete-apibounces" title="Permanent link">&para;</a></h4>
+<p>To delete all bounces.</p>
+<h5 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Required</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">all</td>
+<td style="text-align: left;">bool</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Bool to confirm deleting all bounces</td>
+</tr>
+</tbody>
+</table>
+<h5 id="example-request_1">Example Request<a class="headerlink" href="#example-request_1" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-u<span class="w"> </span><span class="s1">&#39;username:password&#39;</span><span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span><span class="s1">&#39;http://localhost:9000/api/bounces?all=true&#39;</span>
+</code></pre></div>
+<h5 id="example-response_1">Example Response<a class="headerlink" href="#example-response_1" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div>
+<hr />
+<h4 id="delete-apibounces_1">DELETE /api/bounces<a class="headerlink" href="#delete-apibounces_1" title="Permanent link">&para;</a></h4>
+<p>To delete multiple bounce records.</p>
+<h5 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Required</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">id</td>
+<td style="text-align: left;">number</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Id's of bounce records to delete.</td>
+</tr>
+</tbody>
+</table>
+<h5 id="example-request_2">Example Request<a class="headerlink" href="#example-request_2" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-u<span class="w"> </span><span class="s1">&#39;username:password&#39;</span><span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span><span class="s1">&#39;http://localhost:9000/api/bounces?id=840965&amp;id=840168&amp;id=840879&#39;</span>
+</code></pre></div>
+<h5 id="example-response_2">Example Response<a class="headerlink" href="#example-response_2" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div>
+<hr />
+<h4 id="delete-apibouncesbounce_id">DELETE /api/bounces/{bounce_id}<a class="headerlink" href="#delete-apibouncesbounce_id" title="Permanent link">&para;</a></h4>
+<p>To delete specific bounce id.</p>
+<h5 id="example-request_3">Example Request<a class="headerlink" href="#example-request_3" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-u<span class="w"> </span><span class="s1">&#39;username:password&#39;</span><span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span><span class="s1">&#39;http://localhost:9000/api/bounces/840965&#39;</span>
+</code></pre></div>
+<h5 id="example-response_3">Example Response<a class="headerlink" href="#example-response_3" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div>
 
 
 
